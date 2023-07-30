@@ -1,13 +1,23 @@
+@font-face {
+    font-family: 'October crow';
+    src: url('https://assets.website-files.com/60eb6a54b792b76e754d6ae5/60ec7019347906b8d044f7cf_October%20Crow.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
 /* Reset some default styles to ensure consistency across browsers */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 /* Set a background color for the body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #000000;
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,11 +32,26 @@ header {
     padding: 10px;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 70%;
+    aspect-ratio: 3 / 2;
+}
+
 /* Style the navigation bar */
 nav {
-    background-color: #444;
+    background-color: #282828;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -39,15 +64,20 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e94545;
     text-decoration: none;
+    font-family: 'October crow';
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #000000 ;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #ffb2b2;
 }
 
 /* Style the main content area */
@@ -57,6 +87,11 @@ main {
 
 section {
     margin-bottom: 20px;
+    background-color: #000000c4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Style the footer */
@@ -66,6 +101,7 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: small;
+    margin-bottom: 50px;
 }
 
 iframe {
