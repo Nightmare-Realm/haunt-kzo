@@ -39,12 +39,7 @@ header {
 }
 
 .video {
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    width: 70%;
-    aspect-ratio: 3 / 2;
+
 }
 
 /* Style the navigation bar */
@@ -102,6 +97,15 @@ footer {
     padding: 10px;
     font-size: small;
     margin-bottom: 50px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 iframe {
