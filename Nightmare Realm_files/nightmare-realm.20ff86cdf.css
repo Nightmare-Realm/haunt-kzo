@@ -806,6 +806,10 @@ p {
   text-align: center;
 }
 
+.text-block-8 a {
+  color: #fff;
+}
+
 .grid-2 {
   position: static;
   display: -ms-grid;
