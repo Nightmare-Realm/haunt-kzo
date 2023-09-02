@@ -1,115 +1,149 @@
 @font-face {
-    font-family: 'October crow';
-    src: url('https://assets.website-files.com/60eb6a54b792b76e754d6ae5/60ec7019347906b8d044f7cf_October%20Crow.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: "October crow";
+  src: url("https://assets.website-files.com/60eb6a54b792b76e754d6ae5/60ec7019347906b8d044f7cf_October%20Crow.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Reset some default styles to ensure consistency across browsers */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-    color: white;
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 /* Set a background color for the body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #000000;
-    background-image: url('images/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Style the header */
 header {
-    background-color: #ffffff00;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+  background-color: #ffffff00;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.video {
+.contact {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.schedule-image {
+  width: 100%;
 }
 
 /* Style the navigation bar */
 nav {
-    background-color: #282828;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
+  background-color: #282828;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
-    margin-left: 20px;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 nav ul li a {
-    color: #e94545;
-    text-decoration: none;
-    font-family: 'October crow';
-    font-size: 30px;
-    text-shadow: 2px 2px 2px #000000 ;
+  color: #e94545;
+  text-decoration: none;
+  font-family: "October crow";
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 nav ul li a:hover {
-    text-decoration: none;
-    color: #ffb2b2;
+  text-decoration: none;
+  color: #ffb2b2;
 }
 
 /* Style the main content area */
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
-    background-color: #000000c4;
-    padding: 20px;
-    border-radius: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
+.container {
+  margin-bottom: 20px;
+  background-color: #00000086;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group a {
+  padding: 10px;
+}
+
+.button-group a:hover {
+  text-decoration: none;
+  filter: drop-shadow(0px 16px 10px rgba(0,0,225,0.6)); 
+}
+
+.content {
+  font-size: 1.4em;
 }
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-size: small;
-    margin-bottom: 50px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: small;
+  margin-bottom: 50px;
 }
 
 footer a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 iframe {
-    width: 100%;
-    height: 100vh;
-    border: none;
+  width: 100%;
+  height: 100vh;
+  border: none;
 }
