@@ -4,78 +4,49 @@
     <title>Nightmare Realm</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <!-- Adroll tag -->
-    <script type="text/javascript">
-      adroll_adv_id = "GRAYN3TPVFCAVNLXEC7JGK";
-      adroll_pix_id = "I75KZ4AJ6NHJZCAJEOMSJ6";
-      adroll_version = "2.0";
-
-      (function (w, d, e, o, a) {
-        w.__adroll_loaded = true;
-        w.adroll = w.adroll || [];
-        w.adroll.f = ["setProperties", "identify", "track"];
-        var roundtripUrl =
-          "https://s.adroll.com/j/" + adroll_adv_id + "/roundtrip.js";
-        for (a = 0; a < w.adroll.f.length; a++) {
-          w.adroll[w.adroll.f[a]] =
-            w.adroll[w.adroll.f[a]] ||
-            (function (n) {
-              return function () {
-                w.adroll.push([n, arguments]);
-              };
-            })(w.adroll.f[a]);
-        }
-
-        e = d.createElement("script");
-        o = d.getElementsByTagName("script")[0];
-        e.async = 1;
-        e.src = roundtripUrl;
-        o.parentNode.insertBefore(e, o);
-      })(window, document);
-      adroll.track("pageView");
-    </script>
-    <!-- Adroll end tag -->
+    <script src="scripts/adroll.js"></script>
+    <script src="scripts/gtag.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-0LQ1SD4DS8"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-0LQ1SD4DS8");
-    </script>
     <!-- Google tag end (gtag.js) -->
   </head>
   <body>
     <header></header>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Lore</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Sponsors</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lore.html">Lore</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
       </ul>
     </nav>
     <main>
-      <section>Hello World!</section>
+      <section>Content goes here.</section>
     </main>
     <footer>
+      <div class="contact">
+        <a href="http://www.facebook.com/nightmarerealmkalamazoo"><img src="images/facebook.gif" /></a>
+        <a href="http://www.instagram.com/nightmarerealmkalamazoo"><img src="images/instagram.gif" /></a>
+        <a href="https://www.youtube.com/channel/UC5KfJ7cAu9ZnyPYS4KL7zdg"><img src="images/youtube.gif" /></a>
+      </div>
       <p>
         Nightmare Realm Kalamazoo LLC, 23492 Red Arrow Hwy, Mattawan, MI 49071,
         (616) 920-1618
       </p>
       <p>
-        Site contents copyright ©2022 Nightmare Realm Kalamazoo, unless
+        Site contents copyright ©2023 Nightmare Realm Kalamazoo, unless
         otherwise noted. All rights reserved.
       </p>
       <p>
-        <a href="privacy-policy.html" target="_parent">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="terms-of-use.html" target="_blank">Terms of Use</a>
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>|<a
+          href="terms-of-use.html"
+          target="_blank"
+          >Terms of Use</a
+        >
       </p>
     </footer>
   </body>
