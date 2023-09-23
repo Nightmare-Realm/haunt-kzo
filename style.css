@@ -193,3 +193,21 @@ iframe {
   border: none;
 }
 
+.confirmation h1 {
+  text-align: center;
+  font-family: "October crow";
+  color: yellow;
+  text-shadow: 2px 2px 2px #fa0000;
+  margin-bottom: 20px;
+}
+
+.confirmation b {
+  color: #ff9692;
+}
+
+.confirmation p {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
